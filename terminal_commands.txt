@@ -1,0 +1,10 @@
+Change directory
+List items in current directory
+Print working directory
+Create a new file called “cookies.txt”
+Create a new folder called “recipes”
+Delete a file
+Stage a file in Git
+Commit a file in Git
+Push the file to the Git remote’s origin, on the master branch.  
+
