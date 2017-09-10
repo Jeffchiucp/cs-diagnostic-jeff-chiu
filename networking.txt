@@ -1,0 +1,21 @@
+
+User types in the URL www.google.com into the Browser,
+
+When The user types in the https://www.google.com, request and response model.
+The client submit a HTTP Get Request to google.com
+In this case, Google.com uses secured (encrypted) communication, so it will be using HTTPS.
+HTTP/S request and response as part of the client-server protocol.
+In the Big picture, the User's browser acts as the Client  is The one that sends requests and displays it on web browser
+
+* The Server  is The one that returns response the data (i.e. Google server database)
+And once the Google.com recognizes the request, it will assign a Cookie to the browser and establish the connection and sends out response information to the User's Browser
+
+* DNS-The  Domain Name Server helps to converts the google.com URL into IP address e.g. 192.100.188 that tells computer what's the ip address for the server request
+so the DNS knows it's Google.com server that the user want to routing.
+* Packets - when we establish connection to the Google Web Server, every communication is established through the packet.
+* TCP and/or UDP
+ TCP is Internet protocol known as Transport Control Protocol. I remember it uses 3 way handshakes to establish network connection.
+And The Client and Server does 3 way handshakes (Request -> Acknowledgement -> Response) in order to establish a connection.
+UDP is asynchornous connection
+* REST. We use REST API in this case, it's a pretty standard way of calling Web Services as client types in Google.com
+* Headers  -- HTTP header in the browser gives us the response type of the request that we have
