@@ -1,10 +1,19 @@
-Change directory
-List items in current directory
-Print working directory
-Create a new file called “cookies.txt”
-Create a new folder called “recipes”
-Delete a file
-Stage a file in Git
-Commit a file in Git
-Push the file to the Git remote’s origin, on the master branch.  
-
+1. Change directory
+cd
+2. List items in current directory
+ls
+3. Print working directory
+pwd
+4.Create a new file called “cookies.txt”
+vi cookies.txt
+nano cookies.txt
+5. Create a new folder called “recipes”
+mkdir recipes
+6.Delete a file
+rm filename
+7. Stage a file in Git
+git add filename
+8.Commit a file in Git
+git commit -m "description or comment for the commit"
+9.Push the file to the Git remote’s origin, on the master branch.
+git push -u origin master
