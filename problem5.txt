@@ -1,0 +1,2 @@
+
+one way to think about the algorithm is the set of steps to accomplish some tasks. It could be the steps involved to cook a grilled cheese sandwhiches, or finding out the best way to get from Make School to home, we will use a route finding algorithm.
