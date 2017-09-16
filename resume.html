@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Benedetto Lo Giudice's Online Resume</title>
+  <link href="css/style.css" rel="stylesheet">
+  <script src="js/jQuery.js"></script>
+  <!-- More on helper.js in the class -->
+  <script src="js/helper.js"></script>
+  <!--
+  Uncomment the <script> tag below when you're ready to add an interactive
+  Google Map to your resume!
+  -->
+  <script src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
+  <!-- <meta name="viewport" content="width=device-width"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"> -->
+
+  <div id="main">
+      <div id="header" class="center-content">
+        <h1>John Smith</h1>
+      </div>
+       <div style='clear: both;'></div>
+      <div id="Information" class='gray'>
+      <p>   Address: 848 Abbott Road </p>
+      <p>    City: Stillfield, CT 08888 </p>
+      <p>    Phone: 999-999-999 </p>
+      <p>    Email: jsmith@abcd.com </p>
+         <h2 id="workH2" onClick="ExpandCollapse('work-foldable-content','#workH2','Work Experience');">Work Experience (-)</h2>
+      </div>      <!--
+        Note: You can replace the image below with a JPEG or PNG. [image: John Smith, Computer programmer and Ice Cube Chef]
+
+      -->
+      <h3 >    Computer Programmer </h3>
+      <div id="Skills" class='gray'>
+         <h2 id="Skills" onClick="ExpandCollapse('education-foldable-content','#educationH2','Education');">Skills (-)</h2>
+          <p>  HTML, CSS, JavaScript </p>
+            <p> Ruby, Rails, PHP, MySQL </p>
+            <p> iOS, Swift, Mobile</p>
+  </div>
+      <div id="Education" class='gray'>
+         <h2 id="Education" onClick="ExpandCollapse('education-foldable-content','#educationH2','Education');">Education (-)</h2>
+        <p>  Make School San Francisco</p>
+        <p>  College of San Mateo</p>
+      </div>
+
+      <div id="Hobbies" class='dark-gray'>
+         <h2 class='orange center-text'>Hobbies</h2>
+         <p>  Painting with drones   </p>
+          <p> Making music with insect sounds   </p>
+        <p>  Cooking with Ice Cubes     </p>
+         <ul id="footerContacts" class="flex-box">
+         </ul>
+      </div>
+   </div>
+
+
+   [image: John Smith, Computer programmer and Ice Cube Chef]
+
+   Computer Programmer
+
+   Skills
+
+   HTML, CSS, JavaScript
+
+   Ruby, Rails, PHP, MySQL
+
+   iOS, Swift, Mobile
+
+   Education
+
+   Make School San Francisco
+
+   College of San Mateo
+
+   Hobbies
+
+   Painting with drones
+
+   Making music with insect sounds
+
+   Cooking with Ice Cubes
