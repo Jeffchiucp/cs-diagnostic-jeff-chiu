@@ -20,7 +20,7 @@ class Motorcycle(Automobile):
     def __init__(self, color):
         Automobile.__init__(self, color)
         self.wheelNum = 2
-        self.make = "Ducati?"
+        self.make = "Ford"
         self.topSpeed = 70
 
 # 4 wheels this time! I don't know about cars either
@@ -28,7 +28,7 @@ class Car(Automobile):
     def __init__(self, color):
         Automobile.__init__(self, color)
         self.wheelNum = 4
-        self.make = "Accord?"
+        self.make = "Accord"
         self.topSpeed = 100
 
 # These are the ones with a lot of wheels right?
@@ -36,7 +36,7 @@ class SemiTruck(Automobile):
     def __init__(self, color):
         Automobile.__init__(self, color)
         self.wheelNum = 16
-        self.make = "Big Rig?"
+        self.make = "Big Rig"
         self.topSpeed = 60
 
 #test stuff
